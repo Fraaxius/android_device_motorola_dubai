@@ -11,10 +11,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dubai device
 $(call inherit-product, device/motorola/dubai/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Infinity-X stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_dubai
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP = true
+
+# Infinity-X flags
+INFINITY_MAINTAINER := "Francirijillo"
+TARGET_SUPPORTS_BLUR := true
+TARGET_BUILD_VIMUSIC := true
+USE_MOTO_CALCULATOR := true
+TARGET_HAS_UDFPS := true
+WITH_GAPPS := true
+TARGET_BUILD_GOOGLE_TELEPHONY := true
+
+PRODUCT_NAME := infinity_dubai
 PRODUCT_DEVICE := dubai
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
