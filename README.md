@@ -1,3 +1,5 @@
+## Device Tree for Motorola Edge 30 (Dubai)
+
 Motorola Edge 30 (codenamed as _"dubai"_) are mid-high range smartphone from Motorola.
 
 The device was announced on April 27, 2022.
@@ -23,5 +25,4 @@ The device was announced on April 27, 2022.
 | Front camera | 32MP, f/2.3 (wide), 4K@30fps, 1080p@30/60/120fps, 720p@960fps, HDR10, gyro-EIS |
 
 ## Device picture
-
-![Motorola Edge 30](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-30-1.jpg "Motorola Edge 30 in Aurora Green color")
+<img src="https://motorolaroe.vtexassets.com/arquivos/ids/156815/Motorola-edge-30-pdp-render-Mojito-4-31f5yjhf.png?v=637864930876170000" alt="Motorola Edge 30" width="500"/>
