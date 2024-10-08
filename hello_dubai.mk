@@ -11,14 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dubai device
 $(call inherit-product, device/motorola/dubai/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common HelloOS stuff.
+$(call inherit-product, vendor/hello/config/common_full_phone.mk)
 
-# PixelOS Flags
+# HelloOS Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-PRODUCT_NAME := aosp_dubai
+PRODUCT_NAME := hello_dubai
 PRODUCT_DEVICE := dubai
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
